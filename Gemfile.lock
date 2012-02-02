@@ -20,6 +20,13 @@ GIT
       rack
       rake-pipeline
 
+PATH
+  remote: ~/Programming/Ember/ember-docs
+  specs:
+    ember-docs (0.1)
+      rack
+      thor
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -52,6 +59,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ember-docs!
   execjs (~> 1.2.6)
   github-upload
   rack
